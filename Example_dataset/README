@@ -1,0 +1,13 @@
+Auditory Duration Mismatch Negativity (MMN) experiment
+Subjects consist of Rett Syndrome (RTT) and age-matched typically developing (TD) controls
+article (see Reference) contains all methodological details
+
+> Brima, T.Molholm, S.Beker, S.Prinsloo, K. D.Butler, J. S.Djukic, A.Freeman, E. G.Foxe, J. J.
+
+ ## Trigger value Info
+  3 - 450ms_standard
+  5 - 450ms_deviant
+  7 - 900ms_standard
+  9 - 900ms_deviant
+ 11 - 1800ms_standard
+ 13 - 1800ms_deviant

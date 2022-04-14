@@ -1,0 +1,28 @@
+{
+	"Authors": [
+		"Brima, T.",
+		"Molholm, S.",
+		"Beker, S.",
+		"Prinsloo, K. D.",
+		"Butler, J. S.",
+		"Djukic, A.",
+		"Freeman, E. G.",
+		"Foxe, J. J."
+	],
+	"BIDSVersion": "1.2",
+	"DatasetType": "raw",
+	"KeyWords": [
+		"RETT",
+		"Electroencephalography",
+		"ERP",
+		"Auditory Evoked Potential",
+		"Auditory discrimination",
+		"MECP2"
+	],
+	"License": "Attribution 2.0 UK: England & Wales, see http://creativecommons.org/licenses/by/2.0/uk/",
+	"Name": "Probing basic auditory functioning in Rett Syndrome",
+	"ReferencesAndLinks": [
+		" "
+	],
+	"Sponsorship": "This work was supported by grants from the [] "
+}

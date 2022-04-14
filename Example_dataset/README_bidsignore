@@ -1,0 +1,9 @@
+.bidsignore
+
+
+$ cat .bidsignore
+/sub-*/eeg/
+/sub-*/*_scans.tsv
+/sub-*/ses-*/eeg/*_coordsystem.json
+/sub-*/ses-*/eeg/*_electrodes.tsv
+/sub-*/ses-*/eeg/*_channels.tsv

@@ -1,0 +1,46 @@
+participant_id	gender	age	group	RSSS	Mutations	Seizures	Medications
+sub-Subject001	f	15.0	TD	NaN	n/a	n/a	n/a
+sub-Subject002	m	7.0	TD	NaN	n/a	n/a	n/a
+sub-Subject003	f	9.0	TD	NaN	n/a	n/a	n/a
+sub-Subject004	f	12.0	TD	NaN	n/a	n/a	n/a
+sub-Subject005	f	6.0	TD	NaN	n/a	n/a	n/a
+sub-Subject006	f	8.0	TD	NaN	n/a	n/a	n/a
+sub-Subject007	f	8.0	TD	NaN	n/a	n/a	n/a
+sub-Subject008	m	11.0	TD	NaN	n/a	n/a	n/a
+sub-Subject009	f	17.0	TD	NaN	n/a	n/a	n/a
+sub-Subject010	f	10.0	TD	NaN	n/a	n/a	n/a
+sub-Subject011	m	12.0	TD	NaN	n/a	n/a	n/a
+sub-Subject012	m	16.0	TD	NaN	n/a	n/a	n/a
+sub-Subject013	f	7.0	TD	NaN	n/a	n/a	n/a
+sub-Subject014	f	16.0	TD	NaN	n/a	n/a	n/a
+sub-Subject015	m	7.0	TD	NaN	n/a	n/a	n/a
+sub-Subject016	f	17.0	TD	NaN	n/a	n/a	n/a
+sub-Subject017	m	13.0	TD	NaN	n/a	n/a	n/a
+sub-Subject018	f	8.0	TD	NaN	n/a	n/a	n/a
+sub-Subject019	f	6.0	TD	NaN	n/a	n/a	n/a
+sub-Subject020	m	12.0	TD	NaN	n/a	n/a	n/a
+sub-Subject021	f	16.0	TD	NaN	n/a	n/a	n/a
+sub-Subject022	f	8.0	TD	NaN	n/a	n/a	n/a
+sub-Subject023	f	16.0	TD	NaN	n/a	n/a	n/a
+sub-Subject024	m	12.0	TD	NaN	n/a	n/a	n/a
+sub-Subject025	f	12.0	TD	NaN	n/a	n/a	n/a
+sub-Subject026	m	26.0	TD	NaN	n/a	n/a	n/a
+sub-Subject027	m	20.0	TD	NaN	n/a	n/a	n/a
+sub-Subject028	n/a	15.0	RETT	7	R306C	yes	Lovastatin, Ambien, Trazodone
+sub-Subject029	n/a	14.0	RETT	5	C964C	no	Trazadone
+sub-Subject030	n/a	17.0	RETT	13	R270X	no	none
+sub-Subject031	n/a	20.0	RETT	11	T158M	yes	Lexapro, Lamictal
+sub-Subject032	n/a	6.7	RETT	9	Deletion exon 3&4	Yes	Keppra, deplane
+sub-Subject033	n/a	14.0	RETT	NaN	deletion	no	Risperdol and Necon
+sub-Subject034	n/a	8.0	RETT	13	R255X	yes	Trazadone, Depakote
+sub-Subject035	n/a	8.0	RETT	8	R133C	yes	Lovastatin, Topomax, Abilify, Lexapro, Depakene, Nexium
+sub-Subject036	n/a	17.0	RETT	15	418ins4	yes	Diastat, Depakene,  Carnitor
+sub-Subject037	n/a	12.0	RETT	10	T158M	N/A	N/A
+sub-Subject038	n/a	10.0	RETT	10	Q170x mutation at nucleotide c508	N/A	none
+sub-Subject039	n/a	8.0	RETT	9	deletion	no	Lovastatin
+sub-Subject040	n/a	10.0	RETT	11	deletion	N/A	Depakene
+sub-Subject041	n/a	10.0	RETT	6	R255X	no	Lovastatin
+sub-Subject042	n/a	18.0	RETT	14	R270X	n/a	none
+sub-Subject043	n/a	13.0	RETT	14	deletion	yes	Depakene, Lexapro,Lactulose
+sub-Subject044	n/a	22.0	RETT	12	R133C	yes	Depakote, Carintor, Artane, Copaxone
+sub-Subject045	n/a	13.2	RETT	12	T158M	No	Nanadol, prevacid

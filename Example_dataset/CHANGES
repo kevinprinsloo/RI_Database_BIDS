@@ -1,0 +1,10 @@
+Revision history for meditation dataset
+
+version 1.0 beta - 17 Oct 2018
+ - Initial release
+
+version 2.0 - 9 Jan 2019
+ - Fixing event field names and various minor issues
+
+Version 3.0 - 20 March 2019
+ - Adding channel location information

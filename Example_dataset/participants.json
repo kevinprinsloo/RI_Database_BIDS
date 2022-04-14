@@ -1,0 +1,23 @@
+{
+  "participant_id": {
+    "Description": "unique participant identifier"
+  },
+  "gender": {
+    "Description": "sex of the participant",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "age": {
+    "Description": "age of the participant",
+    "Units": "years"
+  },
+  "group": {
+    "Description": "Participant Group Category",
+    "Levels": {
+      "RETT": "RETT Patient",
+      "Control": "Control TD"
+    }
+  }
+}
