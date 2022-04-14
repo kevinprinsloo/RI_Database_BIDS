@@ -1,13 +1,12 @@
 
 % Summary:
-% Script to convert EEG bdf into BIDS format
+% Script to convert EEG raw (.bdf) and preproc (.set) into BIDS format
 
 % Status:
 % Under Development
 
 % Notes:
 % RETT project
-% @ sec epoch data
 
 % Author(s):
 % Kevin Prinsloo
