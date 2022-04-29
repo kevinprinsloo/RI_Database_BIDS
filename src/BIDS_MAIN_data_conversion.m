@@ -1,12 +1,13 @@
 
 % Summary:
-% Script to convert EEG raw (.bdf) and preproc (.set) into BIDS format
+% Script to convert EEG bdf into BIDS format
 
 % Status:
 % Under Development
 
 % Notes:
 % RETT project
+% @ sec epoch data
 
 % Author(s):
 % Kevin Prinsloo
@@ -110,17 +111,7 @@ end
 for subject_Idx = 1:length(file_listings)
     subject_ID = file_listings{subject_Idx};
     disp(subject_ID)
-    
-    % general information for dataset_description.json file
-    % -----------------------------------------------------
-    generalInfo.Name = 'Auditory Duration MMN';
-    generalInfo.License = 'ODbL (https://opendatacommons.org/licenses/odbl/summary/)';
-    generalInfo.Authors = {'Brima, T.', 'Molholm, S.', 'Beker, S.', 'Prinsloo, K. D.', 'Butler, J. S.', 'Djukic, A.', 'Freeman, E. G.', 'Foxe, J. J.'};
-    generalInfo.HowToAcknowledge = 'preprint DOI []';
-    generalInfo.Funding = {' '};
-    generalInfo.ReferencesAndLinks = {' '};
-    generalInfo.DatasetDOI = ' ';
-            
+               
     dat = load([data_path,'\',subject_ID,'\',subject_ID,'_mat','\',subject_ID,'.mat']);
     EEG = dat.EEG; clear dat
     % sort out missing channel in data
@@ -280,14 +271,20 @@ for subject_Idx = 1:length(file_listings)
     
     % List stim info
     stimuli = {'none','none'};
-    
+           
+    % general information for dataset_description.json file    
+    % -----------------------------------------------------
     generalInf = [];
     generalInfo.Name = 'Auditory Duration MMN';
-    generalInfo.ReferencesAndLinks = {'Brima, T.', 'Molholm, S.', 'Beker, S.', 'Prinsloo, K. D.', 'Butler, J. S.', 'Djukic, A.', 'Freeman, E. G.', 'Foxe, J. J.'};
-    
+    generalInfo.License = 'ODbL (https://opendatacommons.org/licenses/odbl/summary/)';
+    generalInfo.Authors = {'Brima, T.', 'Molholm, S.', 'Beker, S.', 'Prinsloo, K. D.', 'Butler, J. S.', 'Djukic, A.', 'Freeman, E. G.', 'Foxe, J. J.'};
+    generalInfo.HowToAcknowledge = 'preprint DOI []';
+    generalInfo.Funding = {' '};
+    generalInfo.ReferencesAndLinks = {' '};
+    generalInfo.DatasetDOI = ' ';
+       
     % Task redundant information
-    % ----------------------------
-    
+    % ----------------------------    
     tInfo.PowerLineFrequency = 60;
     tInfo.ManufacturersModelName = 'ActiveTwo';
     eInfoDesc.onset.Description = 'Event onset';
