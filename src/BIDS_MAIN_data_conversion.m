@@ -161,8 +161,7 @@ for subject_Idx = 1:length(file_listings)
     cfg.participants.group = which_group;
     
     % provide the mnemonic and long description of the task
-    %-----------------------------------------------------------------
-    
+    %-----------------------------------------------------------------    
     cfg.InstitutionName             = 'University of Rochetser';
     cfg.InstitutionalDepartmentName = 'The Frederick J. and Marion A. Schindler Cognitive Neurophysiology Laboratory, The Del Monte Institute for Neuroscience , Department of Neuroscience';
     cfg.InstitutionAddress          = 'University of Rochester Medical Center, 601 Elmwood Avenue, Box 603, KMRB G.9602, Rochester, NY 14642, USA';
@@ -218,8 +217,7 @@ for subject_Idx = 1:length(file_listings)
         
     % Create BDF datasets
     %------------------------
-    data2bids_KP(cfg);
-    
+    data2bids_KP(cfg);    
     
     % participant column description for participants.json file
     % ---------------------------------------------------------
