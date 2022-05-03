@@ -1,4 +1,4 @@
-# 👋 Welcome to BIDS github organization 👋
+# 👋 Welcome to BIDS EEG Data Conversion 👋
 
 Click the following links if you want to
 
