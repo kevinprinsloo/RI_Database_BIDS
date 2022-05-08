@@ -1,13 +1,21 @@
-Auditory Duration Mismatch Negativity (MMN) experiment
-Subjects consist of Rett Syndrome (RTT) and age-matched typically developing (TD) controls
-article (see Reference) contains all methodological details
 
-> Brima, T.Molholm, S.Beker, S.Prinsloo, K. D.Butler, J. S.Djukic, A.Freeman, E. G.Foxe, J. J.
+## Manuscript
+Response Inhibition in Healthy Subjects: Establishing and Examining an EEG Data Repository from Multiple Study Sites 
 
- ## Trigger value Info
-  3 - 450ms_standard
-  5 - 450ms_deviant
-  7 - 900ms_standard
-  9 - 900ms_deviant
- 11 - 1800ms_standard
- 13 - 1800ms_deviant
+### Authors
+Kevin D. Prinsloo, Edward G. Freedman, Pierfilippo De Sanctis, Kristen P. Morie, Kathryn-Mary Wakim, Eleni Patelaki, Douwe Horthuis, Ana A. Francisco, Sophie Molholm, John J. Foxe
+
+### Affiliation
+1 The Frederick J. and Marion A. Schindler Cognitive Neurophysiology Laboratory, The Del Monte Institute for Neuroscience, Department of Neuroscience, University of Rochester School of Medicine and Dentistry, Rochester, NY 14642, USA
+2 The Cognitive Neurophysiology Laboratory, Department of Pediatrics and Neuroscience, Albert Einstein College of Medicine, Bronx, New York, USA
+3 Department of Psychiatry, Yale University School of Medicine, New Haven, CT, 06510, USA Child Study Center
+4 Yale University School of Medicine, New Haven, CT, 06510, USA
+
+    trialtype = {
+        '3','450ms_standard';
+        '5','450ms_deviant';
+        '7','900ms_standard';
+        '9','900ms_deviant';
+        '11','1800ms_standard';
+        '13','1800ms_deviant';
+        };
