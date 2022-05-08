@@ -25,8 +25,7 @@ Kevin D. Prinsloo, Edward G. Freedman, Pierfilippo De Sanctis, Kristen P. Morie,
 
 ## Under developement
 
-Worth noting I have edited the FT functions as I found bugs in the original 
-when trying to convert preprocessed data.
+Use ft functions in scr as these have custome edits
 
 Specifically [data2bids_KP] and nested functions within this.
 
