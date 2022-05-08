@@ -13,7 +13,7 @@ Repo to convert EEG raw and preprocessed EEG data into BIDS format
 ## Manuscript
 Response Inhibition in Healthy Subjects: Establishing and Examining an EEG Data Repository from Multiple Study Sites 
 
-%% Authors
+### Authors
 Kevin D. Prinsloo, Edward G. Freedman, Pierfilippo De Sanctis, Kristen P. Morie, Kathryn-Mary Wakim, Eleni Patelaki, Douwe Horthuis, Ana A. Francisco, Sophie Molholm, John J. Foxe
 
 ## Affiliation
